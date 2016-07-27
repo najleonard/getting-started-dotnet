@@ -44,7 +44,10 @@ namespace GoogleCloudSamples.Services
                 objectName: id.ToString(),
                 contentType: image.ContentType,
                 source: image.InputStream,
-                options: new UploadObjectOptions { PredefinedAcl = imageAcl }
+                options: new UploadObjectOptions
+                {
+                    PredefinedAcl = (PredefinedObjectAcl)imageAcl
+                }
             );
 
             return imageObject.MediaLink;
