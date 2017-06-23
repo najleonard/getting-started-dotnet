@@ -47,8 +47,8 @@ namespace GoogleCloudSamples
             // [START configure_google_auth_client]
             var authenticationOptions = new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = LibUnityConfig.GetConfigVariable("GoogleCloudSamples:AuthClientId"),
-                ClientSecret = LibUnityConfig.GetConfigVariable("GoogleCloudSamples:AuthClientSecret"),
+                ClientId = LibUnityConfig.GetConfigVariable("177333590707-1ffvp92lo1fbmbgmde6rqmfrdasan121.apps.googleusercontent.com"),
+                ClientSecret = LibUnityConfig.GetConfigVariable("ib6lIp5qa7NDaAr3YK0Yehyq"),
             };
             // [END configure_google_auth_client]
 
